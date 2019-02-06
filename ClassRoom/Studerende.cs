@@ -2,9 +2,9 @@
 {
     public class Studerende
     {
-        private string _navn;
-        private int _fødselsdagmåned;
-        private int _fødselsdag;
+        public string _navn;
+        public int _fødselsdagmåned;
+        public int _fødselsdag;
 
         public Studerende( string Navn, int FødselsdagsMåned,int Fødselsdag)
         {
@@ -13,7 +13,7 @@
             _fødselsdag = Fødselsdag;
         }
 
-        public string Navn
+        public string Navn 
         {
             get { return _navn; }
             set { _navn = value; }
